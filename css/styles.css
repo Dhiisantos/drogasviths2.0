@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@447&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 255, 0);
+     font-family: "Anton", sans-serif;
+     font-weight: 20px;
+     font-size: 15px;
+}
+
+video {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    bottom: 0;
+}
+
+.conteudo {
+    position: relative;
+    z-index: 2;
+}
+
+.texto-cabecalho {
+    /*border: solid 2px;*/
+    padding: 20px;
+    text-align: center;
+}
+.texto-cabecalho h1 {
+    margin-top: 50px;
+    color: rgb(0, 0, 118);
+}
+
+.caixa-cards {
+    /*border: solid 2px red;*/
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.card01 {
+    border: solid 0.1px rgba(255, 255, 255, 0.386);
+    flex: 50%;
+    height: 300px;
+    width: 300;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    transition: transform 0.1s ease;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.card01 img {
+    position: relative;
+    height: 20px;
+    right: 10px;
+}
+.card01 a {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: rgb(182, 0, 0);
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+.card01 p, h3 {
+    text-align: left;
+}
+.card01 h3 {
+    color: rgb(0, 0, 118);
+}
+.card01:hover, .card01 a:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.texto-card {
+    margin-bottom: 40px;
+}
+
+
+
+.card02 {
+    border: solid 0.1px rgba(255, 255, 255, 0.386);
+    flex: 50%;
+    height: 300px;
+    width: 300;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.1s ease;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.card02 img {
+    position: relative;
+    height: 20px;
+    right: 10px;
+}
+.card02 a {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: rgb(182, 0, 0);
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+.card02 p, h3 {
+    text-align: left;
+}
+.card02 h3 {
+    color: rgb(0, 0, 118);
+}
+.card02:hover, .card02 a:hover  {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+
+.card03 {
+    border: solid 0.1px rgba(255, 255, 255, 0.386);
+    flex: 50%;
+    height: 300px;
+    width: 300;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.1s ease;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.card03 img {
+    position: relative;
+    height: 20px;
+    right: 10px;
+}
+.card03 a {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: rgb(182, 0, 0);
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+.card03 p, h3 {
+    text-align: left;
+}
+.card03 h3 {
+    color: rgb(0, 0, 118);
+}
+.card03:hover, .card03 a:hover  {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+
+.card04 {
+    border: solid 0.1px rgba(255, 255, 255, 0.386);
+    flex: 50%;
+    height: 300px;
+    width: 300;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.1s ease;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.card04 img {
+    position: relative;
+    height: 20px;
+    right: 10px;
+}
+.card04 a {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: rgb(182, 0, 0);
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+.card04 p, h3 {
+    text-align: left;
+}
+.card04 h3 {
+    color: rgb(0, 0, 118);
+}
+.card04:hover, .card04 a:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+.rodape {
+    position: relative;
+    z-index: 2;
+}
