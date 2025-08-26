@@ -210,3 +210,10 @@ video {
     position: relative;
     z-index: 2;
 }
+
+@media only screen and (max-width: 620px) {
+    .caixa-cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
